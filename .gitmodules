@@ -2,3 +2,4 @@
 	path = child-one
 	url = https://github.com/jmanuelbr/ctti-child1.git
 	branch = main
+	shallow = true
