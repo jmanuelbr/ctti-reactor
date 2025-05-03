@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/ctti-reactor",
+        "create path (nt:unstructured) /content/dam/ctti-reactor/jcr:content",
+        "set properties on /content/dam/ctti-reactor/jcr:content\n  set cq:conf{String} to /conf/ctti-reactor\n  set jcr:title{String} to \"CTTI Reactor Project\"\nend"
+    ]
+}

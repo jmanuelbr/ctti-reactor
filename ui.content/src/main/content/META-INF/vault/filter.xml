@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ctti-reactor" mode="merge"/>
+    <filter root="/content/ctti-reactor" mode="merge"/>
+    <filter root="/content/dam/ctti-reactor" mode="merge">
+        <exclude pattern="/content/dam/ctti-reactor(/.*)?"/>
+        <include pattern="/content/dam/ctti-reactor/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ctti-reactor/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ctti-reactor" mode="merge"/>
+</workspaceFilter>
