@@ -1,13 +1,15 @@
-[submodule "child-one"]
-	path = child-one
+[submodule "child-child1"]
+	path = ctti-child1
 	url = https://github.com/jmanuelbr/ctti-child1.git
 	branch = main
 	shallow = true
-[submodule "child-two"]
-	path = child-two
+[submodule "ctti-child2"]
+	path = ctti-child2
 	url = https://github.com/jmanuelbr/ctti-child2.git
 	branch = main
-[submodule "child-global"]
-	path = child-global
+	shallow = true
+[submodule "ctti-global"]
+	path = ctti-global
 	url = https://github.com/jmanuelbr/ctti-global.git
 	branch = main
+	shallow = true
