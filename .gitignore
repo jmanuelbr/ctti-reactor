@@ -107,3 +107,5 @@ dispatcher/src/conf.d/variables/default.vars
 
 # git submodules
 child-one/
+child-two/
+child-global/
