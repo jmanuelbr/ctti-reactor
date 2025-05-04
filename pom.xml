@@ -22,8 +22,8 @@
   <description>CTTI Reactor Project</description>
   <modules>
     <module>ctti-global</module>
-    <module>ctti-one</module>
-    <module>ctti-two</module>
+    <module>ctti-child1</module>
+    <module>ctti-child2</module>
   </modules>
   <properties>
     <aem.host>localhost</aem.host>
