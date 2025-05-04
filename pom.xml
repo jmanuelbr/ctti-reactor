@@ -20,11 +20,6 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>CTTI Reactor Project</name>
   <description>CTTI Reactor Project</description>
-  <modules>
-    <module>ctti-global</module>
-    <module>ctti-child1</module>
-    <module>ctti-child2</module>
-  </modules>
   <properties>
     <aem.host>localhost</aem.host>
     <aem.port>4502</aem.port>
@@ -387,7 +382,26 @@ Bundle-DocURL:
       </plugins>
     </pluginManagement>
   </build>
-  <profiles>
+<profiles>
+    <!-- Default profile that includes all modules -->
+    <profile>
+        <id>all-modules</id>
+        <activation>
+         <activeByDefault>true</activeByDefault>
+        </activation>
+        <modules>
+         <module>ctti-global</module>
+         <module>ctti-child1</module>
+         <module>ctti-child2</module>
+        </modules>
+    </profile>
+    <!-- Profile that only includes the global module -->
+    <profile>
+        <id>global-submodule-only</id>
+        <modules>
+        <module>ctti-global</module>
+        </modules>
+    </profile>
     <!-- Development profile: install only the bundle -->
     <profile>
       <id>autoInstallBundle</id>
